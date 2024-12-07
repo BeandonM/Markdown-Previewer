@@ -1,7 +1,12 @@
 import "./App.css";
+import MarkdownPreviewer from "./components/MarkdownPreviewer";
 
-function App() {
-  return <></>;
-}
+const App = () => {
+  return (
+    <div className="app">
+      <MarkdownPreviewer />
+    </div>
+  );
+};
 
 export default App;
